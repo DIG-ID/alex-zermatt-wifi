@@ -10,7 +10,7 @@
 					echo '<p class="screen-reader-text">' . get_bloginfo( 'name' ) . '</p>';
 				endif;
 				?>
-				<a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url" class="navbar-brand custom-logo-link"><?php do_action( 'theme_logo' ); ?></a>
+				<a rel="home" href="<?php echo esc_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url" class="navbar-brand custom-logo-link"><?php do_action( 'theme_logo' ); ?></a>
 			</div>
 		</div>
 
