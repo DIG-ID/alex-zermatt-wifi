@@ -1,0 +1,20 @@
+.page-template-page-links
+  @apply bg-[#F4F4F4]
+  .main-content
+    @apply w-full mx-auto max-w-2xl h-screen
+    .menu-links
+      &--item
+        .button
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.03)
+          @apply flex justify-between items-center bg-white rounded-md text-blue font-serif text-xl leading-none font-light tracking-[0.07875rem] uppercase whitespace-nowrap break-normal py-5 px-4 mb-3 transition-all duration-500 ease-in-out hover:text-gold
+          .download-icon
+            path
+              @aplly fill-blue transition-all duration-500 ease-in-out
+          &:hover
+            .download-icon
+              path
+                @aplly fill-gold
+          .button-icon-wrapper
+            @apply flex gap-x-6 items-center
+            .icon
+              @apply w-7 h-7 flex items-center justify-center

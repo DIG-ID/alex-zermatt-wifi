@@ -1,5 +1,5 @@
-<header id="header-main" class="header-main w-full bg-white" itemscope itemtype="http://schema.org/WebSite">
-	<nav class="navigation-main w-full flex items-center py-8 xl:py-10" role="navigation" aria-label="<?php esc_attr_e( 'main navigation', 'az' ); ?>">
+<header id="header-main" class="header-main w-full" itemscope itemtype="http://schema.org/WebSite">
+	<nav class="navigation-main w-full flex items-center pt-11 pb-20 relative" role="navigation" aria-label="<?php esc_attr_e( 'main navigation', 'az' ); ?>">
 
 		<div class="w-full mx-auto flex justify-center items-center">
 			<div class="site-branding">
