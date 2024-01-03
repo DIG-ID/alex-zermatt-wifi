@@ -1,5 +1,11 @@
 .widget.widget_icl_lang_sel_widget
-  @apply absolute right-8 top-8
+  @apply absolute right-8 top-12
   .wpml-ls-legacy-dropdown
     @apply w-auto
     ul
+      .wpml-ls-link,.wpml-ls-item-toggle
+        @apply border-0 bg-[#F4F4F4] p-0
+        &::after
+          display: none !important
+        img
+          @apply w-8 h-8 rounded-xl
